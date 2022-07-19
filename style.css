@@ -9,11 +9,14 @@
     list-style: none;
 }
 
-body{
+main{
     width: 80%;
     margin: 0 auto;
 }
-
+header{
+    width: 80%;
+    margin: 0 auto;
+}
 /* ##### CSS FOR HEADER SECTION ###### */
 
 nav {
@@ -65,21 +68,24 @@ ul i {
 }
 
 .banner-image {
-    width: 50%;
+    width: 44%;
     text-align: center;
+    background-image: url(images/Circle\ design.svg);
     /* border: 1px solid #ddd; */
     /* border-radius: 50%; */
 }
 
 
 
-.banner-image img {
+/* .banner-image img {
     width: 75%;
-    border: 1px solid #ddd;
-    border-radius: 50%;
+    /* border: 1px solid #ddd;
+    border-radius: 50%; 
     padding: 12px;
-    /* background: #ddd; */
-}
+    background: #ddd;
+    background-image: url(images/Circle\ design.svg);
+} 
+*/
 
 .banner-content h1 {
     font-size: 40px;
@@ -127,7 +133,7 @@ a.btn i {
     justify-content: space-between;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-    /* margin-top: 100px; */
+    margin-top: 100px;
 }
 
 
@@ -199,3 +205,97 @@ span.rating {
     font-weight: 700;
     color: #3A3A3A;
 }
+
+
+/* #### CSS FOR SEE MORE BUTON #### */
+.see-more {
+    text-align: right;
+    padding: 31px 0px;
+}
+
+a.see-btn {
+    color: crimson;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+a.see-btn i {
+    color: crimson;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+/* ##### CSS FOR FEATURE SECTION ##### */
+.feature-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.feature-image {
+    width: 45%;
+}
+.feature-image img {
+    width: 78%;
+}
+.feature-content{
+    width: 50%;
+
+}
+
+.feature-content h1 {
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+.feature-content p {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 600;
+    padding: 10px 0px;
+    color: #3A3A3A;
+}
+
+a.feature-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: crimson;
+    color: #fff;
+    padding: 14px 40px;
+    font-size: 15px;
+    font-weight: 700;
+    border: 2px solid crimson;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.feature-btn:hover{
+    background: transparent;
+    border: 2px solid crimson;
+    color: crimson;
+}
+
+/* #### FOOTER SECTION #### */
+
+footer {
+    width: 100%;
+    background: rgb(6, 3, 31);
+    height: 200px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
